@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gothic+A1:wght@300&display=swap');
+body{background-color:grey;
+font-family: 'Gothic A1', sans-serif;}
+    h1{
+        border-bottom:5px solid green;
+        padding:20px
+        font-family: 'Do Hyeon', sans-serif;
+    }
+    h1 a{
+        text-decoration:none;
+    }
+    ol{
+        border-right:10px dotted red;
+    }
+    div{border:1px solid blue;}
+      #contents{
+        display:grid;
+        grid-template-columns:1fr 2fr;
+      }
+      #sub{padding:10px}

@@ -3,16 +3,42 @@
 <head>
     <title>WEB-HTML</title>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css">
+     <style>
+    body{background-color:grey;}
+    h1{
+        border-bottom:5px solid green;
+        padding:20px
+    }
+    h1 a{
+        text-decoration:none;
+    }
+    ol{
+        border-right:10px dotted red;
+    }
+    </style>
 </head>
 <body>
+  <style>
+  div{border:1px solid blue;}
+      #contents{
+        display:grid;
+        grid-template-columns:1fr 2fr;
+      }
+      #sub{padding:10px}
+  </style>
     <h1><a href="index 0904 test.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-        
-    </ol>
-    <h2 id="h">HTML</h2>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, voluptates similique, cumque rem facilis iure earum a aperiam ducimus excepturi labore odio! Facere excepturi enim, qui quasi corporis numquam.
+    <div id="contents">
+        <ol>
+            <li><a href="1.html">HTML</a></li>
+            <li><a href="2.html">CSS</a></li>
+            <li><a href="3.html">JavaScript</a></li>
+
+        </ol>
+        <div>
+        <h2 id="h">HTML</h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, voluptates similique, cumque rem facilis iure earum a aperiam ducimus excepturi labore odio! Facere excepturi enim, qui quasi corporis numquam.
+        </div>
+     </div>
 </body>
 </html>
